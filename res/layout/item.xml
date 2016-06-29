@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+       
+		<TextView
+		    android:id="@+id/subject"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/alarmDateHint"
+		    android:textSize="30dp" >
+
+		</TextView>
+
+		<LinearLayout
+		    android:id="@+id/linearLayout2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+			<TextView
+			    android:id="@+id/itemLabel"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/itemLabel" 
+			    android:textSize="17dp"/>
+
+			<TextView
+			    android:id="@+id/addDate"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="17dp" />
+
+			<TextView
+			    android:id="@+id/addTime"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textSize="17dp" />
+
+		</LinearLayout>
+
+    </LinearLayout>

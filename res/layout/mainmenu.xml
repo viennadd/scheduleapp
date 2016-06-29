@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/mainitem_switchmode"
+	    android:icon="@drawable/switch_mode"
+	    android:title="@string/mainitem_switchmode" />
+	<item android:id="@+id/mainitem_add"
+	    android:icon="@drawable/add"
+	    android:title="@string/mainitem_add" />
+	<item android:id="@+id/clearallschedule"
+	    android:title="@string/clearallschedule"
+	    android:icon="@drawable/clear" />
+	<item android:id="@+id/recommand"
+	    android:title="@string/recommend"
+	    android:icon="@drawable/recommend" />
+	<item android:id="@+id/about"
+	    android:title="@string/about"
+	    android:icon="@drawable/about" />   
+
+</menu>

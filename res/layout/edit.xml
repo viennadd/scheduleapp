@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+ 
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titleHint" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contentHint"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startDate"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <DatePicker
+        android:id="@+id/editStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dueDate"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <DatePicker
+        android:id="@+id/editDueDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/editIsUseAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/useAlarm" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/editLabAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarmTime"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <DatePicker
+        android:id="@+id/editAlarmDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TimePicker
+        android:id="@+id/editAlarmTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/confirmEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmEdit"
+        android:textSize="30dp" />
+    
+       </LinearLayout>
+</ScrollView>

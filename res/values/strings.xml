@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">日程管理</string>
+    <string name="Add">添加</string>
+    <string name="title">标题</string>
+    <string name="content">详细内容</string>
+    <string name="titleHint">此处输入标题</string>
+    <string name="startDate">开始日期</string>
+    <string name="dueDate">截止日期</string>
+    <string name="alarmTime">响闹时间</string>
+    <string name="contentHint">此处输入内容</string>
+    <string name="startDateHint">此处输入开始日期</string>
+    <string name="dueDateHint">此处输入到期日期</string>
+    <string name="alarmDateHint">选择响闹日期</string>
+    <string name="alarmTimeHint">选择响闹时间</string>
+    <string name="useAlarm">是否使用响闹功能</string>
+    <string name="confirmAdd">确认添加</string>
+    <string name="itemLabel">最后修改: </string>
+    <string name="mainitem_add">添加新日程</string>
+    <string name="mainitem_view">查看日程</string>
+    <string name="mainitem_edit">修改日程</string>
+    <string name="mainitem_delete">删除日程</string>
+    <string name="confirmEdit">确认修改</string>
+    <string name="viewmenu_edit">编辑此日程</string>
+    <string name="viewmenu_delete">删除此日程</string>
+    <string name="recommend">推荐给朋友</string>
+    <string name="about">关于软件</string>
+    <string name="aboutMessage">姓名：姜凤 \n学号：2008121045 \nCUIT网络工程学院 \n毕业设计作品</string>
+    <string name="clearallschedule">清理所有日程</string>
+    <string name="classmanage">分类管理</string>
+    <string name="clear_all_schedule">确定清除所有记录吗？</string>
+    <string name="clear_message">清除将可能无法恢复，是否确定清除所有日程记录？</string>
+    <string name="viewSchedule">查看</string>
+    <string name="closeAlarm">关闭</string>
+    <string name="mainitem_switchmode">切换日历模式</string>
+
+</resources>
